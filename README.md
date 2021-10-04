@@ -1,2 +1,2 @@
 # NeWbie
-# coba commit dan merge
+# Divan Lavianto P
