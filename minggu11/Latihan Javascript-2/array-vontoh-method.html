@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="eg">
+    <head>
+        <title>Mengisi Hapus Depan</title>
+    </head>
+    <body>
+        <script>
+      
+        const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+            const filteredArray = angka.filter(item => item % 2 === 0);
+            console.log(filteredArray) // -> [2, 4, 6, 8]
+            var tanaman = ["Padi", "Kacang", "Jagung", "Kedelai"];
+            var adaKacang = tanaman.includes("Kacang");
+            console.log(adaKacang); // -> true
+            var adaBayam = tanaman.includes("Bayam");
+            console.log(adaBayam); // -> false
+            var alfabet = ['a','f','z','e','r','g'];
+            var angka = [3,1,2,6,8,5];
+            console.log(alfabet.sort()); //-> ["a", "e", "f", "g", "r", "z"]
+            console.log(angka.sort()); // -> [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        </script>
+    </body>
+</html>
